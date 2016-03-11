@@ -7,8 +7,6 @@ public class User {
 	private String password;
 	
 	private boolean isActive;
-	
-	private String userEmail;
 
 	public String getUserName() {
 		return userName;
@@ -33,15 +31,5 @@ public class User {
 	public void setActive(boolean isActive) {
 		this.isActive = isActive;
 	}
-
-	public String getUserEmail() {
-		return userEmail;
-	}
-
-	public void setUserEmail(String userEmail) {
-		this.userEmail = userEmail;
-	}
-	
-	
 	
 }
